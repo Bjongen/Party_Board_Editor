@@ -1,3 +1,14 @@
-# Godot 4+ specific ignores
-.godot/
-/android/
+# Godot-specific
+.import/
+export.cfg
+export_presets.cfg
+*.godot/tmp/*
+*.godot/metadata/*
+*.tres
+*.res
+*.import
+*.mpack
+
+# OS-specific
+.DS_Store
+Thumbs.db
